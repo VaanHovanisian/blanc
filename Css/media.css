@@ -400,6 +400,7 @@
     left: 60%;
     flex-direction: column;
     padding-top: 65px;
+    padding-right: 30px;
   }
 
   .menu-ul {
