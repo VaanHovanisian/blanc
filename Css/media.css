@@ -78,8 +78,14 @@
   .footer-content2,
   .footer-content1 {
     padding: 20px 0;
+
   }
 
+  .footer-content2 > ul {
+    display: flex;
+    flex-direction: column;
+gap: 7px;
+  }
   #footer-text {
     max-width: 500px;
     text-align: center;
