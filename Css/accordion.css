@@ -10,3 +10,10 @@
   padding: 30px;
   margin: 30px;
 }
+
+.accordion__button {
+    padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
