@@ -80,7 +80,9 @@
     padding: 20px 0;
 
   }
-
+.container-footer {
+  gap: 0;
+}
   .footer-content2 > ul {
     display: flex;
     flex-direction: column;
