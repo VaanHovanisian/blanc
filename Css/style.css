@@ -48,6 +48,11 @@
 
 @import url(./modal.css);
 
+[data-lang="arm"],
+[data-lang="ru"] {
+  display: none;
+}
+
 html {
   box-sizing: border-box;
   height: 100%;
