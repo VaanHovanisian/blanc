@@ -107,6 +107,12 @@
   .home-studios {
     flex-direction: column;
   }
+.card .image {
+  top: -5px;
+}
+.card .content {
+  gap: 13px;
+}
 
   /*-----------services-section2----------*/
   #services-section2-img {
@@ -410,7 +416,8 @@
     top: 0;
     left: 0;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    align-items: start;
   }
 
   .menu-link {
@@ -422,11 +429,9 @@
   }
 
   .menu-ul li {
-    border-bottom: 1px solid rgb(140, 136, 136);
   }
 
   .menu-ul a {
-    padding-bottom: 10px;
   }
 
   /*-----*/
@@ -464,18 +469,18 @@
   #downmediaflag:hover {
     color: #EC4192;
   }
-
-  #pavilions-a-i,
+*/
+  /* #pavilions-a-i,
   #flag-a-i {
     display: grid;
     grid-template-columns: 1fr 0.4fr;
-  }
+  } */
 
-  #pavilions-content a,
+  /* #pavilions-content a,
   #flag-content a {
     border-bottom: none;
     padding-left: 30px;
-  } */
+  }  */
 }
 
 

@@ -187,7 +187,6 @@ h1 {
   height: 35px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .navbar {
@@ -204,7 +203,8 @@ h1 {
 .menu-ul {
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
+  /* margin-top: 5px; */
+  align-items: center;
 }
 
 .menu-link {
@@ -218,9 +218,14 @@ h1 {
 .menu-link-flag {
   display: flex;
 }
+.flag-a-i,
+.pavilions-a-i {
+ display: flex;
+ align-items: center;
+}
 
-.footer-content2 .menu-link {
-  padding-bottom: 10px;
+.footer-content2 ul {
+ gap: 10px;
 }
 
 .menu-link:hover {
@@ -252,7 +257,7 @@ h1 {
 }
 
 .down {
-  padding-left: 20px;
+  padding: 5px
 }
 
 .downmedia {
