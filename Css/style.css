@@ -224,6 +224,10 @@ h1 {
  align-items: center;
 }
 
+.flag-a-i:hover,
+.pavilions-a-i:hover{
+ color: rgb(140, 140, 93);
+}
 .footer-content2 ul {
  gap: 10px;
 }

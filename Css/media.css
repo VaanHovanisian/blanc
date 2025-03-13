@@ -407,6 +407,7 @@
     flex-direction: column;
     padding-top: 65px;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
 
   .menu-ul {
