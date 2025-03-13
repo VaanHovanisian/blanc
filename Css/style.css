@@ -176,7 +176,11 @@ h1 {
 .logo img {
   height: 35px;
 }
-
+.pavilions-a-i a,
+.flag-a-i a {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
   background-image: url(../Img/logo-rm.png);
   width: 200px;
@@ -607,6 +611,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #fff;
+  text-align: center;
 }
 
 .section3-button {

@@ -430,7 +430,7 @@
   }
 
   /*-----*/
-  #pavilions-content,
+  /* #pavilions-content,
   #flag-content {
     position: relative;
     background-color: #ffffff;
@@ -475,7 +475,7 @@
   #flag-content a {
     border-bottom: none;
     padding-left: 30px;
-  }
+  } */
 }
 
 
