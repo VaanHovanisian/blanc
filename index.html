@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Css/modal.css">
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="stylesheet" href="./Css/media.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container-header">
+    <div class="container container-header__container">
+      <a class="logo" href="index.html">
+        <img src="Img/logo-rm.png" alt="logo" width="200" height="35">
+      </a>
+      <nav class="navbar">
+        <ul class="list-reset menu-ul">
+          <li><a href="index.html" class="menu-link home"><span data-lang="arm">Գլխավոր</span><span
+                data-lang="ru">Главная</span><span data-lang="en">Home</span></a></li>
+          <li><a class="btn-reset modal-btn menu-link" data-graph-animation="custom" data-graph-path="first">
+              <span data-lang="arm">Ամրագրել</span><span data-lang="ru">Забронировать Студию</span><span
+                data-lang="en">Book a Studio</span></a></li>
+          <div class="menu-link-hover" id="menu-link-hover">
+            <div class="pavilions-a-i" id="pavilions-a-i">
+              <a href="index.html#studios" class="menu-link menu-link-pavilions">
+                <span data-lang="arm">Սրահներ</span><span data-lang="ru">Галерея</span><span
+                  data-lang="en">Gallery</span>
+                <i class="fa-solid fa-angle-down down" id="down"></i>
+              </a>
+              <i class="fa-solid fa-angle-down downmedia" id="downmediapavilions" onclick="myFunction()"></i>
+            </div>
+            <ul class="pavilions-content list-reset" id="pavilions-content">
+              <li><a href="studio1.html" class="pavilions-services"><span
+                    data-lang="arm">Լիվինգ ռում</span><span data-lang="ru">Living комната</span><span
+                    data-lang="en">Living room</span></a>
+              </li>
+              <li><a href="studio2.html" class="pavilions-services"><span data-lang="arm">Կիդս սենյակ</span><span
+                    data-lang="ru">Kids комната</span><span data-lang="en">Kids room</span></a></li>
+            </ul>
+          </div>
+          </li>
+          <li><a href="#about" class="menu-link">
+              <span data-lang="arm">Մեր մասին</span><span data-lang="ru">О нас</span><span data-lang="en">About
+                Us</span></a></li>
+          <li><a href="rules.html" class="menu-link"><span data-lang="arm">Կանոններ</span><span
+                data-lang="ru">Правила</span><span data-lang="en">Rules</span></a></li>
+          <li>
+          <li><a href="#contactus" class="menu-link">
+              <span data-lang="arm">Կապ մեզ հետ</span><span data-lang="ru">Связаться с нами</span><span
+                data-lang="en">Contact Us</span></a>
+          </li>
+          <li>
+            <div class="menu-link-hover" id="menu-link-hover">
+              <div class="flag-a-i" id="flag-a-i">
+                <a href="#" class="menu-link menu-link-flag">
+                  <span data-lang="arm">Լեզուն</span><span data-lang="ru">Флаг</span><span data-lang="en">Flag</span>
+                  <i class="fa-solid fa-angle-down down" id="down"></i>
+                </a>
+                <i class="fa-solid fa-angle-down downmedia" id="downmediaflag" onclick="myFunction1()"></i>
+              </div>
+              <ul class="flag-content list-reset" id="flag-content">
+                <li><a href="##lang=arm" class="flag" data-button-lang="arm"><img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1200px-Flag_of_Armenia.svg.png"
+                      width="30px" alt=""></a></li>
+                <li><a href="##lang=en" class="flag" data-button-lang="en"><img
+                      src="https://t4.ftcdn.net/jpg/00/80/93/13/360_F_80931362_hc7MvkgkjTUjOlnCXJjOASENuaYTNoxv.jpg"
+                      width="30px" alt=""></a></li>
+                <li><a href="##lang=ru" class="flag" data-button-lang="ru"><img
+                      src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png"
+                      width="30px" alt=""></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+      <label class="burger" id="burger" for="burger-checkbox"></label>
+    </div>
+  </header>
+  <main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="home-section1">
+      <div class="home-section1-container container">
+        <div class="home-div-forsection1">
+          <h2 class="home-div-forsection1__title">
+            <span data-lang="en">Welcome to our bright and spacious photo studio</span>
+            <span data-lang="arm">Բարի գալուստ մեր լուսավոր և ընդարձակ ֆոտոստուդիա</span>
+            <span data-lang="ru">Добро пожаловать в нашу яркую и просторную фотостудию</span>
+          </h2>
+          <a href="#studios" class="section1-button button">
+            <span data-lang="arm">Ամրագրել</span>
+            <span data-lang="ru">Забронировать Студию</span>
+            <span data-lang="en">Book a Studio</span>
+          </a>
+        </div>
+      </div>
+      <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+        speed="1000" parallax="true" pagination="true" pagination-clickable="true" loop="true" autoplay="true">
+        <div slot="container-start" class="parallax-bg" data-swiper-parallax="-23%"></div>
+
+        <swiper-slide>
+          <img class="home-section1__img" src="Img/header_background_img-min.jpg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img class="home-section1__img" src="Img/hero-bg2-min.jpg" loading="lazy" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img class="home-section1__img" src="Img/ampik-new-cut2.jpg" loading="lazy" alt="">
+        </swiper-slide>
+      </swiper-container>
+    </section>
+    <section class="home-section3">
+      <div class="home-section3-container container" id="home-section3-container">
+        <div class="home-div-forsection3">
+          <h3>
+            <span data-lang="en">Stylishly furnished photo studio in Yerevan.</span>
+            <span data-lang="arm">Նորաոճ կահավորված ֆոտոստուդիա Երևանում</span>
+            <span data-lang="ru">Бесконечные возможности с самой красивой дизайнерской мебелью.</span>
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section class="aboutus-section3" id="about">
+      <div class="aboutus-section3-container container" id="aboutus-section3-container">
+        <div class="aboutus-div-forsection3" id="aboutus-div-forsection3">
+          <h3><span data-lang="en">About Us</span> <span data-lang="arm">Մեր մասին</span> <span data-lang="ru">О
+              нас</span></h3>
+          <div class="aboutus-section3__content">
+            <p class="text aboutus-section3-text">
+              <span data-lang="en">We are a full-service photo studio located in the heart of Yerevan. Since 2019, we’ve
+                been offering a wide range of services, including three elegant pavilions in two different locations –
+                Khorenatsi and Armenakyan Streets – both conveniently close to the city center. Currently, we’re
+                remodeling our fourth pavilion located at the Armenakyan branch to further expand our offering and
+                maximize your experience at Panorama Studios. In addition to our stunning photoshoot locations, we
+                provide
+                complimentary equipment rental and a team of talented photographers ready to capture your life’s
+                precious
+                moments. This means that whenever you have a creative photoshoot idea, we’re here to bring it to life.
+                Our
+                goal is to deliver a joyful and vibrant photoshoot experience, so you don’t have to worry about planning
+                anything in advance except your look and mood. You can explore our photographers’ portfolios on our
+                website, choose the perfect match, and we’ll take care of the rest. From day one, Panorama Studios has
+                successfully hosted and organized various photoshoots, from fashion to family, pregnancy, and more. Our
+                photographers are experienced in all these genres, and all our pavilions are comfortable for every
+                occasion.</span>
+              <span data-lang="arm">Մենք ամբողջական ծառայություններ առաջարկող լուսանկարչական ստուդիա ենք, որը գտնվում է
+                Երևանի կենտրոնում: 2019-ից մենք առաջարկում ենք ծառայությունների լայն տեսականի, այդ թվում՝ երեք էլեգանտ
+                պավիլյոններ երկու տարբեր վայրերում՝ Խորենացի և Արմենակյան փողոցներում՝ երկուով էլ շատ մոտ կենտրոնին:
+                Այժմ
+                մենք նորոգում ենք մեր չորրորդ պավիլյոնը, որը գտնվում է Արմենակյան մասնաճյուղում, մեր ծառայությունների
+                ընդլայնման և Panorama Studios-ում ձեր փորձառությունը առավելագույնի հասցնելու նպատակով: Դիտման վայրերի
+                կողքին մենք տրամադրում ենք անվճար սարքավորումների վարձույթ և տաղանդավոր լուսանկարիչների թիմ, պատրաստ
+                capturing ձեր կյանքի անգնահատելի պահերը: Սա նշանակում է, որ երբեք ստեղծագործական լուսանկարչական գաղափար
+                ունեք, մենք այստեղ ենք այն կյանքի կոչելու համար: Մեր նպատակն է տրամադրել ուրախ և գունագեղ լուսանկարչական
+                փորձ՝ այնպես, որ նախապես պլանավորելու ոչինչ չպետք է լինի բացի ձեր տեսքից և տրամադրությունից: Դուք կարող
+                եք
+                ուսումնասիրել մեր լուսանկարիչների պորտֆոլիոներն մեր կայքում, ընտրել կատարյալ համընթացը, և մենք հոգ
+                կտանենք
+                մնացածի մասին: Panorama Studios-ը, առաջին օրվանից սկսած, հաջողությամբ կազմակերպել է տարբեր
+                լուսանկարահանումներ՝ ֆեշնից մինչ ընտանիք, հղիություն և ավելին: Մեր լուսանկարիչները փորձառու են բոլոր այս
+                ժանրերում, և մեր բոլոր պավիլյոնները հարմարավետ են յուրաքանչյուր առիթի համար.</span>
+              <span data-lang="ru">Мы — фотостудия полного цикла, расположенная в самом сердце Еревана. С 2019 года мы
+                предлагаем широкий спектр услуг, включая три элегантных павильона в двух разных местах — на улицах
+                Хоренатси и Армэнакияна — оба из которых находятся в удобной близости от центра города. В настоящее
+                время
+                мы реконструируем наш четвертый павильон, расположенный в филиале на Армэнакияне, чтобы еще больше
+                расширить наши предложения и максимально улучшить ваш опыт в Panorama Studios. Помимо наших потрясающих
+                локаций для фотосессий, мы предоставляем бесплатную аренду оборудования и команду талантливых
+                фотографов,
+                готовых запечатлеть важные моменты вашей жизни. Это означает, что когда у вас возникнет творческая идея
+                для фотосессии, мы готовы воплотить ее в жизнь. Наша цель — предоставить радостный и яркий опыт
+                фотосессии, чтобы вам не нужно было беспокоиться о планировании всего заранее, кроме вашего внешнего
+                вида
+                и настроения. Вы можете просмотреть портфолио наших фотографов на нашем сайте, выбрать идеального
+                кандидата, а мы позаботимся обо всем остальном. С самого первого дня Panorama Studios успешно проводила
+                и
+                организовывала различные фотосессии — от модных съемок до семейных, беременности и других. Наши
+                фотографы
+                опытны во всех этих жанрах, и все наши павильоны комфортны для любого случая.</span>
+            </p>
+            <div class="aboutus-section3__img-box"><img class="aboutus-section3__img" loading="lazy"
+                src="Img/about-bg-min2.jpg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Բարի գալուստ «Kids» սենյակ՝ մեր սկանդինավյան ոճով ներշնչված տարածք, որը նախատեսված է ձեր փոքրիկի կյանքի ամենաքաղցր պահերը հավերժացնելու համար: «Kids» սենյակը սկանդինավյան դիզայնի սկզբունքներից է ներշնչված՝ համադրելով ֆունկցիոնալությունը, պարզությունը և էսթետիկան։ Սենյակը 50 քմ է, առաստաղի բարձրությունը մինչև 4,5 մետր, ինչը թույլ է տալիս, որ ստուդիան լցվի բնական լույսով։ Բնական լույսով լուսանկարահանման համար իդեալական ժամերն են առավոտյան 10:30-ից մինչև երեկոյան 17:30 Սենյակը համալրված է տարբեր դեկորներով, աքսեսուարներով, փոքր սեղաններով և աթոռներով, որոնք հեշտությամբ կարելի է վերադասավորել՝ ստեղծելու յուրահատուկ ֆոտոզոնաներ։ «Kids» սենյակը հիանալի վայր է երեխայի կյանքի կարևոր պահերը, ծննդյան տարեդարձները և ընտանեկան լուսանկարահանումները հավերժացնելու համար։ Տարածքը նաև հիանալի վայր է մարկետփլեյս խանութների համար, որտեղ կարող են լուսանկարել երեխաների հագուստ, խաղալիքներ ու աքսեսուարներ։ Այստեղ ձեր փոքրիկը կզգա իրեն ինչպես տանը՝ իր ննջասենյակում: Մենք սպասում ենք ձեզ մեր հեքիաթային աշխարհում, որտեղ կախարդանք արդեն Ձեզ է սպասում։ Խաղն արդեն սկսված է։ -->
+    <section class="studios" id="studios">
+      <div class="container">
+        <h2 class="studios__title">
+          <span data-lang="en">Aesthetically furnished spaces specially equipped for photography</span>
+          <span data-lang="ru">Уникальные фотостудии</span>
+          <span data-lang="arm">Վարձակալեք լուսավոր և խաղաղ ֆոտոստուդիա</span>
+        </h2>
+        <div class="home-studios" id="home-studios">
+          <div class=card>
+            <div class=image>
+              <img src="Img/hero-bg2-min.jpg" loading="lazy" alt="" height="200">
+            </div>
+            <div class=content>
+              <h3>
+                <span data-lang="en">LIVING ROOM</span>
+                <span data-lang="ru">Ливинг Рум</span>
+                <span data-lang="arm">ԼԻՎԻՆԳ ՌՈՒՄ</span>
+              </h3>
+              <p>
+                <span data-lang="en">Welcome to the “Living” room , our Scandi-inspired space, designed to capture your
+                  creative spirit.</span>
+                <span data-lang="ru">Добро пожаловать в “Гостиную” комнату, наша Скандинавская студия, предназначенная
+                  для
+                  захвата вашего креативного духа.</span>
+                <span data-lang="arm">
+                  «Լիվինգ ռումը» 110 քառակուսի մետր սկանդինավյան և ժամանակակից ոճով սենյակ է՝ մեծ, հարավ նայող
+                  պատուհաններով ու 4.5 մետր բարձրությամբ առաստաղով։
+                </span>
+              </p>
+              <a href="./studio1.html" target="_blank" class="section1-button button">
+                <span data-lang="en">Book a Studio</span><span data-lang="ru">Забронировать Студию</span><span
+                  data-lang="arm">Ամրագրել</span>
+              </a>
+            </div>
+          </div>
+          <div class=card>
+            <div class=image>
+              <img src="Img/ampik-new-cut-min.jpg" loading="lazy" alt="" height="200">
+            </div>
+            <div class=content>
+              <h3>
+                <span data-lang="en">KIDS ROOM</span><span data-lang="ru">Детская комната</span><span
+                  data-lang="arm">ՔԻԴՍ ՌՈՒՄ</span>
+              </h3>
+              <p>
+                <span data-lang="en">Welcome to the “Kids” room , our Scandi-inspired space, designed to capture your
+                  creative spirit.</span>
+                <span data-lang="ru">Добро пожаловать в “Детскую” комнату, наша Скандинавская студия, предназначенная
+                  для
+                  захвата вашего креативного духа.</span>
+                <span data-lang="arm">
+                  Բարի գալուստ «Kids ռում»՝ մեր սկանդինավյան ոճով ներշնչված տարածք, որը նախատեսված է ձեր փոքրիկի կյանքի
+                  ամենաքաղցր պահերը հավերժացնելու համար:
+                </span>
+              </p>
+              <a href="./studio2.html" target="_blank" class="section1-button button">
+                <span data-lang="en">Book a Studio</span><span data-lang="ru">Забронировать Студию</span><span
+                  data-lang="arm">Ամրագրել</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-top" id="contactus">
+    <div class="container-footer container" id="container-footer">
+      <div class="footer-content1">
+        <a href="#">
+          <img class="container-footer__logo logo" src="Img/logo-rm.png" loading="lazy" alt="" width="200" height="35">
+        </a>
+        <div class="text footer-text" id="footer-text">
+          <p>
+            <span data-lang="en">Blanc Photostudio – A space where memories turn into art.</span>
+            <span data-lang="ru">Арендуйте светлую и уютную фотостудию от Blanc. Стильная дизайнерская мебель и
+              комфортная атмосфера. Бронируйте онлайн прямо сейчас.</span>
+            <span data-lang="arm">Բլանկ ֆոտոստուդիա – տարածք, որտեղ հիշողությունները վերածվում են արվեստի</span>
+          </p>
+        </div>
+        <div class="footer-icons" id="footer-icons">
+                    <div class="social-icons"><a target="_blank" href="https://www.facebook.com/blancPhotostudio?mibextid=wwXIfr&rdid=IRGBv2bpLArvaAYT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15zSyLHVTD%2F%3Fmibextid%3DwwXIfr#"><i class="fa-brands fa-facebook socialmedia"></i></a></div>
+          <div class="social-icons"><a target="_blank" href="https://www.instagram.com/blancphotostudio.am/?igsh=MWFsaHY2bDZmajM4YQ%3D%3D#"><i class="fa-brands fa-instagram socialmedia-instagram"></i></a></div>
+          <div class="social-icons"><a href="tel:+37491037771"><i class="fa-solid fa-phone socialmedia"></i></a></div>
+          <div class="social-icons"><a href="mailto:blancyerevan@gmail.com"><i class="fa-solid fa-envelope socialmedia"></i></a></div>
+        </div>
+      </div>
+
+      <div class="footer-content2">
+        <h3 class="footer-title">
+          <span data-lang="en">Explore</span><span data-lang="arm">Արժե տեսնել</span><span data-lang="ru">Ссылки</span>
+        </h3>
+        <ul class="list-reset">
+          <li><a href="index.html" class="menu-link home">
+              <span data-lang="en">Home</span><span data-lang="arm">Գլխավոր</span><span data-lang="ru">Главная</span>
+            </a>
+          </li>
+          <li><a data-graph-path="first" data-graph-animation="custom" class="menu-link">
+              <span data-lang="en">Book a Studio</span><span data-lang="ru">Забронировать Студию</span><span
+                data-lang="arm">Ամրագրում</span>
+            </a></li>
+          <li>
+            <div class="menu-link-hover" id="menu-link-hover">
+              <div class="pavilions-a-i" id="pavilions-a-i">
+                <a href="" class="menu-link menu-link-pavilions">
+                  <span data-lang="en">Gallery</span>
+                  <span data-lang="arm">Սրահներ</span>
+                  <span data-lang="ru">Галерея</span>
+                  <i class="fa-solid fa-angle-down down" id="down"></i>
+                </a>
+                <i class="fa-solid fa-angle-down downmedia" id="downmediapavilions" onclick="myFunction()"></i>
+              </div>
+              <ul class="pavilions-content list-reset" id="pavilions-content">
+                <li><a href="studio1.html" class="pavilions-services"><span
+                      data-lang="arm">Լիվինգ ռում</span><span data-lang="ru">Living комната</span><span
+                      data-lang="en">Living room</span></a>
+                </li>
+                <li><a href="studio2.html" class="pavilions-services"><span data-lang="arm">Կիդս ռում</span><span
+                      data-lang="ru">Kids комната</span><span data-lang="en">Kids room</span></a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="rules.html" class="menu-link">
+              <span data-lang="en">Rules</span><span data-lang="arm">Կանոններ</span><span data-lang="ru">Правила</span>
+            </a>
+          </li>
+          <li><a href="#about" class="menu-link">
+              <span data-lang="en">About Us</span><span data-lang="ru">О нас</span><span data-lang="arm">Մեր
+                մասին</span>
+            </a></li>
+          <li>
+            <div class="menu-link-hover" id="menu-link-hover">
+              <div class="flag-a-i" id="flag-a-i">
+                <a class="menu-link menu-link-flag">
+                  <span data-lang="en">Flag</span><span data-lang="arm">Լեզուն</span><span data-lang="ru">Флаг</span>
+
+                  <i class="fa-solid fa-angle-down down" id="down"></i>
+                </a>
+                <i class="fa-solid fa-angle-down downmedia" id="downmediaflag" onclick="myFunction1()"></i>
+              </div>
+              <ul class="flag-content list-reset" id="flag-content">
+                <li><a href="##lang=arm" class="flag" data-button-lang="arm"><img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1200px-Flag_of_Armenia.svg.png"
+                      width="30px" alt=""></a></li>
+                <li><a href="##lang=en" class="flag" data-button-lang="en"><img
+                      src="https://t4.ftcdn.net/jpg/00/80/93/13/360_F_80931362_hc7MvkgkjTUjOlnCXJjOASENuaYTNoxv.jpg"
+                      width="30px" alt=""></a></li>
+                <li><a href="##lang=ru" class="flag" data-button-lang="ru"><img
+                      src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png"
+                      width="30px" alt=""></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-content2">
+        <h3 class="footer-title">
+          <span data-lang="en">Contact Us</span><span data-lang="arm">Կապ մեզ հետ</span><span data-lang="ru">Связаться с
+            нами</span>
+        </h3>
+        <ul class="list-reset">
+          <li class="footer-lists"><a href="#"><i class="fa-solid fa-location-dot contacticons"></i>Adonts 10/1</a></li>
+          <li class="footer-lists"><a href="mailto:blancyerevan@gmail.com"><i
+                class="fa-solid fa-envelope contacticons"></i>blancyerevan@gmail.com</a></li>
+          <li class="footer-lists"><a href="tel:+37491037771"><i class="fa-solid fa-phone contacticons"></i>+374
+              91037771</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer-bottom">
+    <div class="container-deepfooter container">
+      <p>Copyright © <span class="copyright" id="copyright"></span>, Panorama Studios. All Rights Reserved.</p>
+      <p> <a>Privacy Policy</a></p>
+    </div>
+  </footer>
+  <div class="graph-modal">
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="first">
+      <button class="btn-reset graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+      <div class="graph-modal__content">
+        <h1>barev ARA</h1>
+      </div>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
